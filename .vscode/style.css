@@ -33,6 +33,7 @@ ul > li > ul {
 
 main{
   display: flex;
+  flex: 1;
 }
 
 aside{
@@ -40,9 +41,35 @@ aside{
   flex: 1;
   flex-direction: column;
   background-color: gray;
+
+  padding: 10px;
 }
 
 section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 2;
   background-color: blanchedalmond;
+}
+
+article{
+  padding: 10px;
+}
+
+img{
+  height: 250px;
+  width: 100%;
+}
+
+.card{
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }

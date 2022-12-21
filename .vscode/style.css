@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: aqua;
+  padding: 20px;
+
+}
+
+.menu > li {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li > ul {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: aquamarine;
+  z-index: 1;
+}
+
+.open:hover > ul {
+  display: block;
+}

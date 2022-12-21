@@ -30,3 +30,19 @@ ul > li > ul {
 .open:hover > ul {
   display: block;
 }
+
+main{
+  display: flex;
+}
+
+aside{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: gray;
+}
+
+section{
+  flex: 2;
+  background-color: blanchedalmond;
+}
